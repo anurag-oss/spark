@@ -124,9 +124,9 @@ graph LR
     I --> J[Return Data]
     
     D --> K[Implementation Specific]
-    K --> L[ParallelCollection: Return Slice]
-    K --> M[MappedRDD: prev.iterator.map(f)]
-    K --> N[ShuffledRDD: Fetch and Merge]
+    K --> L[ParallelCollection Return Slice]
+    K --> M[MappedRDD prev.iterator.map]
+    K --> N[ShuffledRDD Fetch and Merge]
 ```
 
 ## Memory Management
