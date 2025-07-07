@@ -103,10 +103,10 @@ graph LR
     A --> D[reduce]
     A --> E[take]
     A --> F[foreach]
-    B --> G[Array[T]]
+    B --> G["Array[T]"]
     C --> H[Long]
     D --> I[T]
-    E --> J[Array[T]]
+    E --> J["Array[T]"]
     F --> K[Unit]
 ```
 
